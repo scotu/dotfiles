@@ -1,0 +1,28 @@
+# all ignored by default
+*
+# this repo's gitignore
+!.gitignore
+# this repo's "meta" files
+!LICENSE
+!README.md
+
+# nvim
+!nvim.dotfolder/
+!nvim.dotfolder/init.vim
+!nvim.dotfolder/plugged/
+!nvim.dotfolder/plugged/**
+!nvim.dotfolder/site/autoload/
+!nvim.dotfolder/site/autoload/**
+nvim.dotfolder/shada
+nvim.dotfolder/swap
+
+# emacs
+!emacs.d.dotfolder/
+!emacs.d.dotfolder/elpa/
+!emacs.d.dotfolder/elpa/**
+!emacs.d.dotfolder/init.el
+
+# hammerspoon
+!hammerspoon.dotfolder/
+!hammerspoon.dotfolder/**
+
